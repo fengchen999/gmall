@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: wms-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #服务注册中心地址
+      config:
+        server-addr: localhost:8848 #配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEV_GROUP
+        namespace: ab74dfb5-d5ab-49ca-bf54-5af563a8a30b

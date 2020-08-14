@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: oms-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #服务注册中心地址
+      config:
+        server-addr: localhost:8848 #配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEV_GROUP
+        namespace: 147491ef-ed5e-4365-8199-186353247c7e

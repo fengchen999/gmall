@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ums-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #服务注册中心地址
+      config:
+        server-addr: localhost:8848 #配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        #group: DEV_GROUP
+        namespace: 87e66b89-8f51-42a5-82e0-9f0d60683da8
